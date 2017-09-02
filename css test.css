@@ -17,3 +17,13 @@
 #pryam{
     text-align: left;
 }
+
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: chocolate;
+}
