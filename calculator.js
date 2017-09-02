@@ -1,4 +1,4 @@
-jQuery("document").ready(function(){
+﻿jQuery("document").ready(function(){
     
     jQuery(".test1").on('click',function(){
         var vl1,vl2,vl3,sum;
