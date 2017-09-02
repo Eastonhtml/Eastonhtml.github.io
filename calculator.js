@@ -20,4 +20,25 @@ jQuery("document").ready(function(){
         sum = (vl4+vl5)*2;
         alert(sum);
     })
+        jQuery(".test3").on("click",function(){
+      var vl6,vl7,sum;
+        vl6 = jQuery('#val6').val();
+        vl7 = jQuery('#val7').val();
+        vl6 = parseInt(vl6);
+        vl7 = parseInt(vl7);
+        sum = vl6*vl7;
+        alert(sum);
+    })
+   
+     jQuery(".test4").on("click",function(){
+         var vl8,vl9,vl10,ploshad;
+         vl8 = jQuery('#val8').val();
+         vl9 = jQuery('#val9').val();
+         vl10 = jQuery('#val10').val();
+         vl8 = parseInt(vl8); //a
+         vl9 = parseInt(vl9); //b
+         vl10 = parseInt(vl10); //c
+         ploshad = 2*((vl8+vl9)+(vl8+vl10)+(vl9+vl10))
+         alert(ploshad);
 });
+    });
