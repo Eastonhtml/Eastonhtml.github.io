@@ -2,50 +2,62 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Handlee', cursive;
     font-size: 13pt;
-    background-color: #C0C0C0;
+    background-image: url(https://cdn.discordapp.com/attachments/322657043188023298/440129181318119424/ac4eb85475de9fc3.png);
     padding: 10px;
     margin: 0;
 }
+
 h1 {
     font-size: 15pt;
-    color: #black;
+    color: darkmagenta;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
+    text-shadow: 5px 2px 4px GreenYellow;
 }
+
 h1 span {
     border: 2px inset #800000;
     padding: 10px;
 }
+
 p {
     padding: 0;
     margin: 0;
 }
-a{
-	text-decoration: none;
-	color: white
+
+a {
+    text-decoration: none;
+    color: white
 }
+
 .img-circle {
     border: 3px solid #FFDEAD;
     border-radius: 50%;
 }
+
 .section {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
 #header {
     background-size: cover;
 }
+
 #header img {
     display: block;
     width: 80px;
     height: 80px;
     margin: auto;
+    box-shadow: 0 0 5px 2px GreenYellow;
 }
+
 #header p {
     font-size: 25pt;
     color: #3b464c;
@@ -54,65 +66,91 @@ a{
     font-weight: bold;
     text-align: center;
 }
-#source{
-    text-align: center;
-    color: coral;
+
+#source {
+    text-align: left;
+    color: darkmagenta;
 }
+
+#source2 {
+    text-align: right;
+    color: darkmagenta;
+}
+
 .quote {
     font-size: 12pt;
     text-align: center;
     margin-top: 10px;
 }
+
 table {
     width: 100%;
     font-size: 11pt;
 }
-table, th, td {
+
+#a1,
+#a2,
+#a3 {
     border: 2px solid #cecece;
     border-collapse: collapse;
     text-align: center;
     table-layout: fixed;
 }
+
 .selected {
-    background-color: #CD853F;
+    background-color: darkmagenta;
     font-weight: bold;
     color: white;
 }
+
+#sourced {
+    border: 0 px solid white;
+}
+
 li {
     margin-bottom: 15px;
     font-weight: bold;
     list-style-type: square
 }
+
 progress {
     width: 70%;
     height: 20px;
-    color: #3fb6b2;
+    color: darkmagenta`;
     background: #efefef;
 }
+
 progress::-webkit-progress-bar {
     background: #efefef;
 }
+
 progress::-webkit-progress-value {
-    background: #3fb6b2;
-} 
+    background: darkmagenta;
+}
+
 progress::-moz-progress-bar {
     color: #3fb6b2;
     background: #efefef;
 }
-iframe, audio {
+
+iframe,
+audio {
     display: block;
     margin: 0 auto;
-    border: 3px solid #3fb6b2;
+    border: 3px solid darkmagenta;
 }
+
 hr {
     border: 0;
     height: 1px;
     background: #f36f48;
 }
+
 form {
     text-align: center;
     margin-top: 0;
 }
+
 .submit {
     background-color: #3fb6b2;
     padding: 12px 45px;
@@ -124,13 +162,17 @@ form {
     margin: 0;
     font-weight: bold;
 }
+
 .submit:hover {
     background-color: #43a09d;
 }
+
 textarea {
     height: 100px;
 }
-input, textarea {
+
+input,
+textarea {
     margin-bottom: 10px;
     font-size: 11pt;
     padding: 15px 10px 10px;
@@ -141,6 +183,7 @@ input, textarea {
     width: 70%;
     outline: none;
 }
+
 .face {
     transform: scale(0.4);
     margin: 0 auto;
@@ -148,24 +191,29 @@ input, textarea {
     margin-top: -35px;
     margin-bottom: -25px;
 }
+
 #contacts img {
     height: 50px;
     width: 50px;
     margin-left: 7px;
     margin-right: 7px;
 }
+
 #contacts a {
     text-decoration: none;
 }
+
 #contacts img:hover {
     opacity: 0.8;
 }
+
 #contacts {
     text-align: center;
 }
+
 .copyright {
     font-size: 8pt;
     text-align: right;
     padding-bottom: 10px;
-    color: "black"	;
+    color: "black";
 }
