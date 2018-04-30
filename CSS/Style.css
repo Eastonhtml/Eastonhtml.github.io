@@ -7,9 +7,15 @@ body {
     font-family: 'Handlee', cursive;
     font-size: 13pt;
     background-image: url(https://cdn.discordapp.com/attachments/322657043188023298/440129181318119424/ac4eb85475de9fc3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
     padding: 10px;
     margin: 0;
 }
+
+#php {}
 
 h1 {
     font-size: 15pt;
@@ -110,18 +116,18 @@ table {
 li {
     margin-bottom: 15px;
     font-weight: bold;
-    list-style-type: square
+    list-style-type: none;
 }
 
 progress {
-    width: 70%;
+    width: 40%;
     height: 20px;
     color: darkmagenta`;
     background: #efefef;
 }
 
 progress::-webkit-progress-bar {
-    background: #efefef;
+    background: lightgray;
 }
 
 progress::-webkit-progress-value {
@@ -129,7 +135,7 @@ progress::-webkit-progress-value {
 }
 
 progress::-moz-progress-bar {
-    color: #3fb6b2;
+    color: darkmagenta;
     background: #efefef;
 }
 
